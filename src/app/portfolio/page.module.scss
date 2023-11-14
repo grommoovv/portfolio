@@ -1,0 +1,17 @@
+.section {
+  .inner {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 200px 0px;
+  }
+
+  .showcase {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    // display: flex;
+    // flex-direction: column;
+    // gap: 100px;
+  }
+}

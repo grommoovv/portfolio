@@ -1,0 +1,86 @@
+.card {
+  position: relative;
+  z-index: 1;
+  &_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  max-width: 1200px;
+
+  border-radius: 32px;
+
+  height: auto;
+  padding: 32px;
+
+  // background-color: rgba(180, 185, 188, 0.05);
+  background-color: #ac81f3;
+  border: 1px solid rgba(131, 134, 135, 0.15);
+
+  color: #fff;
+
+  &:nth-child(even) {
+    align-self: flex-end;
+    background-color: #aae73d;
+    color: #000;
+
+    .abc {
+      .button {
+        border: 2px solid #000;
+
+        a {
+          color: #000;
+          transition: all 0.3s ease;
+        }
+
+        &:hover {
+          background-color: #000;
+
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .title {
+    // color: var(--color-text-accent);
+  }
+
+  .stack {
+    // color: var(--color-text-accent);
+  }
+
+  .desc {
+    flex: 1 1 auto;
+    // color: var(--color-text-accent);
+    // color: #fff;
+  }
+
+  .abc {
+    display: flex;
+    gap: 20px;
+    .button {
+      padding: 4px 16px;
+      border-radius: 40px;
+      font-weight: 500;
+      border: 2px solid #fff;
+      transition: all 0.3s ease;
+
+      a {
+        color: #fff;
+        transition: all 0.3s ease;
+      }
+
+      &:hover {
+        background-color: #fff;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+}
