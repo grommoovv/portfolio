@@ -28,7 +28,7 @@ export default function Home() {
           <a href='https://t.me/gromvgeo'>t.me/gromvgeo</a>
           <a href='https://github.com/gromvgeo'>github.com/gromvgeo</a>
           <a href='mailto:gromov.dev13@gmail.com'>gromov.dev13@gmail.com</a>
-          <a href='https://www.linkedin.com/in/gromov13dev/'>www.linkedin.com/in/gromov13dev</a>
+          <a href='https://www.linkedin.com/in/gromvgeo'>www.linkedin.com/in/gromvgeo</a>
         </div>
       </div>
 
