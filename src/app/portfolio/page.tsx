@@ -22,7 +22,7 @@ export default function Portfolio() {
         />
         <div className={cls.showcase}>
           {projects.map((proj) => (
-            <PortfolioCard card={proj} key={`card-${proj.id}`} />
+            <PortfolioCard card={proj} key={proj.id} />
           ))}
         </div>
       </div>

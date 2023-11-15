@@ -8,16 +8,16 @@ import { usePathname } from 'next/navigation'
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   const pathname = usePathname()
 
-  useEffect(() => {
-    const __layout = document.getElementById('__layout')!
-    if (pathname === '/') {
-      __layout.style.height = '100vh'
-    }
+  // useEffect(() => {
+  //   const __layout = document.getElementById('__layout')!
+  //   if (pathname === '/') {
+  //     __layout.style.height = '100vh'
+  //   }
 
-    return () => {
-      __layout.style.height = ''
-    }
-  }, [pathname])
+  //   return () => {
+  //     __layout.style.height = ''
+  //   }
+  // }, [pathname])
 
   return (
     <div id='__layout' className={cls.layout}>

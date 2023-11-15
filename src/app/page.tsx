@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <div className={cls.info}>
-          <a href='https://t.me/incognxto'>t.me/incognxto</a>
+          <a href='https://t.me/gromvgeo'>t.me/gromvgeo</a>
           <a href='https://github.com/gromvgeo'>github.com/gromvgeo</a>
           <a href='mailto:gromov.dev13@gmail.com'>gromov.dev13@gmail.com</a>
           <a href='https://www.linkedin.com/in/gromov13dev/'>www.linkedin.com/in/gromov13dev</a>
@@ -37,9 +37,9 @@ export default function Home() {
           <span>
             I mostly write in TypeSript with React for UI development and Next.JS as main framework.
           </span>
-          <span>For state management I use Context API, Redux & Zustand </span>
+          <span>For state management I use Context API, Redux & Zustand</span>
         </div>
-        <div className={cls.title}>Technology Stack</div>
+        <h2 className={cls.title}>Technology Stack</h2>
       </div>
 
       <div className={cls.about}>
@@ -51,7 +51,7 @@ export default function Home() {
             </div>
             <ArrowIconOne />
           </div>
-          <div className={cls.title}>About Me</div>
+          <h2 className={cls.title}>About Me</h2>
         </Link>
       </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
             </div>
             <ArrowIconOne />
           </div>
-          <div className={cls.title}>Portfolio</div>
+          <h2 className={cls.title}>Portfolio</h2>
         </Link>
       </div>
     </motion.section>
