@@ -7,7 +7,7 @@ import { Layout } from '@/components/layout/Layout'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'GROMOV',
+  title: '@gromvgeo | Frontend',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
