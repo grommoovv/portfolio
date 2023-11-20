@@ -19,11 +19,11 @@
 
     font-size: 13px;
     font-weight: 600;
-    color: #ac81f3;
+    color: var(--green);
     text-transform: uppercase;
     letter-spacing: -0.05em;
 
-    background-color: #aae73d;
+    background-color: var(--purple);
   }
 
   @media (max-width: 600px) {
